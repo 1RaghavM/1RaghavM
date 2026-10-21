@@ -1,38 +1,43 @@
 # Raghav Mehta
 
-I ship AI applications and developer tools end to end: an MCP server that lets coding agents generate images and video, a 345-lesson C++ learning platform with sandboxed grading and an AI tutor, an agent-backed FastAPI backend, and computer-vision models I train and quantize on my own GPU.
+I build AI applications and developer tools end to end: Model Context Protocol (MCP) servers, LLM-powered apps, agent backends, and computer-vision models I train and quantize myself.
 
-**Open to 2027 AI/ML and software engineering internships.** I'm especially interested in AI applications, developer tools, and backend work.
+**Open to 2027 AI/ML and software engineering internships**, especially in AI applications, developer tools, and backend.
+
+## GitHub activity
+
+<p>
+  <img height="165" alt="Raghav's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=1RaghavM&show_icons=true&hide_border=true&theme=transparent&title_color=2f81f7&icon_color=2f81f7" />
+  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1RaghavM&layout=compact&hide_border=true&theme=transparent&langs_count=6&title_color=2f81f7" />
+</p>
+<p>
+  <img height="165" alt="Contribution streak" src="https://streak-stats.demolab.com?user=1RaghavM&hide_border=true&theme=transparent&ring=2f81f7&fire=2f81f7&currStreakLabel=2f81f7" />
+</p>
+
+## Open-source contributions
+
+**26 merged PRs to [Opentrons/opentrons](https://github.com/Opentrons/opentrons/pulls?q=is%3Apr+author%3A1RaghavM+is%3Amerged)** (lab-automation robotics monorepo) since Sep 2026. Most add runtime-parameter (RTP) support to `step-generation` command state updates. Recent ones:
+
+- [Add RTP support for move command state update fns](https://github.com/Opentrons/opentrons/pull/22662)
+- [Add RTP support for pickUpTip, dropTip and configureNozzleLayout](https://github.com/Opentrons/opentrons/pull/22659)
+- [Add RTP support to thermocycler state update fns](https://github.com/Opentrons/opentrons/pull/22617)
+- [Add RTP support to liquid level detection commands](https://github.com/Opentrons/opentrons/pull/22604)
+- [Add RTP support to various pipetting commands](https://github.com/Opentrons/opentrons/pull/22603)
 
 ## Featured projects
 
-**[visualgen-mcp](https://github.com/1RaghavM/visualgen-mcp)** · Python · Model Context Protocol (MCP)
-An MCP server that lets Claude Code generate images (Imagen 4) and 8-second videos (Veo 3.1) through the Gemini API and writes the files straight into the project. It exposes six stdio tools, including async video jobs (submit, then poll), plus a setup wizard and a Claude Code skill that asks before expensive runs. CI runs ruff, mypy, and pytest on Python 3.11 and 3.12.
+| Project | What it is | Stack |
+|---|---|---|
+| [**visualgen-mcp**](https://github.com/1RaghavM/visualgen-mcp) | MCP server that lets Claude Code generate images (Imagen 4) and video (Veo 3.1) straight into a project. Has 6 tools including async video jobs, and CI runs ruff, mypy, and pytest. | Python |
+| [**cpproad**](https://github.com/1RaghavM/cpp-course) | 345-lesson interactive C++ course with Judge0-sandboxed grading, a bring-your-own-key AI tutor with 4-tier hints, and spaced review. | TypeScript, Next.js, Supabase |
+| [**dormdish-backend**](https://github.com/1RaghavM/dormdish-backend) | Backend for a college dining app, including a streaming conversational agent with recoverable runs, confirm-before-save, and feature-flagged rollout. | Python, FastAPI |
+| [**FireDetection**](https://github.com/1RaghavM/FireDetection) | YOLO11n flame and smoke detector (mAP50 0.945). Its INT8 OpenVINO export is 3.2 MB and runs at 13.6 ms per image. | Python, YOLO11 |
+| [**ai-engineering-illustrated-diagrams**](https://github.com/1RaghavM/ai-engineering-illustrated-diagrams) | Illustrated explainers on sandboxes, MCP, inference serving, and agent harnesses, written for my [Substack](https://ragmehta.substack.com). | Diagrams |
 
-**[cpproad](https://github.com/1RaghavM/cpp-course)** · TypeScript · Next.js · Supabase
-An interactive C++ course covering all 34 chapters and 345 lessons of learncpp.com. Code runs in a Judge0 sandbox and is graded against per-exercise test cases. A bring-your-own-key Gemini tutor stores keys encrypted with AES-256-GCM and gives hints in four escalating tiers, so it can't open with the answer. It also has spaced-repetition review, optional GitHub sync of passed solutions, and a Vitest test suite.
+**Also building:** [ebay-agent](https://github.com/1RaghavM/ebay-agent) (WhatsApp to eBay listing via an MCP server) · [arbiter](https://github.com/1RaghavM/arbiter) (cost/quality model routing) · [network-rag-api](https://github.com/1RaghavM/network-rag-api) (RAG with FastAPI and Ollama) · [vision-tune](https://github.com/1RaghavM/vision-tune) (X-ray VLM fine-tune) · [l1-cache](https://github.com/1RaghavM/l1-cache) (C++ latency experiment)
 
-**[dormdish-backend](https://github.com/1RaghavM/dormdish-backend)** · Python · FastAPI
-The backend for DormDish, a college dining and nutrition app: campus menus, meal plans, food-photo analysis with Gemini, food logging, and subscriptions. Its "Ask DormDish" conversational agent streams versioned server-sent events, persists runs so they can be recovered, requires explicit confirmation before saving a meal, and is rolled out behind feature flags and a kill switch.
-
-**[FireDetection](https://github.com/1RaghavM/FireDetection)** · Python · YOLO11
-A YOLO11n model fine-tuned to detect flames and smoke. It reached validation mAP50 0.945 (mAP50-95 0.651) after 100 epochs. The INT8 OpenVINO export is 3.2 MB and keeps mAP50-95 at 0.637 at 13.6 ms per image.
-
-**[ai-engineering-illustrated-diagrams](https://github.com/1RaghavM/ai-engineering-illustrated-diagrams)**
-Illustrated explanations of how AI systems work: code sandboxes, MCP, LLM inference serving, computer-use agents, and agent harnesses. Written for my [Substack](https://ragmehta.substack.com).
-
-## Also building
-
-- [ebay-agent](https://github.com/1RaghavM/ebay-agent): send a few photos and a sentence on WhatsApp and get an eBay sandbox listing back. It's built on a custom 4-tool eBay MCP server whose test suite requires at least 75% coverage overall and 100% on the eBay client.
-- [arbiter](https://github.com/1RaghavM/arbiter): routes chat requests across OpenAI, Anthropic, and Google models and compares cost, latency, and quality against fixed-model baselines (React, FastAPI, PostgreSQL).
-- [network-rag-api](https://github.com/1RaghavM/network-rag-api): a minimal retrieval-augmented generation (RAG) API using FastAPI, Chroma, and a local Ollama model.
-- [vision-tune](https://github.com/1RaghavM/vision-tune): a vision-language model fine-tuned on an RTX 3090 to summarize X-ray images.
-- [l1-cache](https://github.com/1RaghavM/l1-cache): a C++17 memory-latency experiment, with a written analysis of why the naive approach measures cache misses rather than L1 hits.
-
-## Stack
-
-Python · TypeScript · C++ · PyTorch · Ultralytics · FastAPI · Next.js · Supabase · PostgreSQL · Docker
+**Stack:** Python · TypeScript · C++ · PyTorch · FastAPI · Next.js · Supabase · PostgreSQL · Docker
 
 ## Get in touch
 
-If you're hiring for 2027 AI/ML or SWE internships, I'd like to hear from you. Read my writing on [Substack](https://ragmehta.substack.com), browse my code on [GitHub](https://github.com/1RaghavM), or open an issue on any of the repos above.
+If you're hiring for 2027 AI/ML or SWE internships, I'd like to hear from you. You can find my writing on [Substack](https://ragmehta.substack.com) and my code here on [GitHub](https://github.com/1RaghavM).
