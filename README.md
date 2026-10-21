@@ -6,13 +6,13 @@ I build AI applications and developer tools end to end: Model Context Protocol (
 
 ## GitHub activity
 
+**2,200+ contributions in the past year**, including 100+ pull requests.
+
 <p>
   <img height="165" alt="Raghav's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=1RaghavM&show_icons=true&hide_border=true&theme=transparent&title_color=2f81f7&icon_color=2f81f7" />
-  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1RaghavM&layout=compact&hide_border=true&theme=transparent&langs_count=6&title_color=2f81f7" />
+  <img height="165" alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=1RaghavM&layout=compact&hide_border=true&theme=transparent&langs_count=6&hide=jupyter%20notebook,html,css&title_color=2f81f7" />
 </p>
-<p>
-  <img height="165" alt="Contribution streak" src="https://streak-stats.demolab.com?user=1RaghavM&hide_border=true&theme=transparent&ring=2f81f7&fire=2f81f7&currStreakLabel=2f81f7" />
-</p>
+
 
 ## Open-source contributions
 
